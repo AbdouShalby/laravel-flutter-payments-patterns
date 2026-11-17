@@ -49,5 +49,9 @@ sequenceDiagram
 ```
 Creates a fresh Laravel 12 app, installs Sanctum (`php artisan install:api`), adds `HasApiTokens` to `User`, copies `api/` in, migrates SQLite and runs `php artisan test` (8 pattern tests). CI runs the same script. Set `PAYMENTS_WEBHOOK_SECRET` in `.env` for real use.
 
+## How this was built
+
+I defined the problem, the design and the acceptance criteria, and reviewed and verified the result. An AI assistant (Grok) did most of the implementation.
+
 ## License
 MIT
